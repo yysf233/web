@@ -742,8 +742,11 @@
   .app-sub-sidebar > ul {
     margin: 0 !important;
   }
-  .app-sub-sidebar > .app-sub-sidebar ::before {
+  .app-sub-sidebar > .app-sub-sidebar >li ::before {
     content: "\00a0\00a0\00a0";
+  }
+  .app-sub-sidebar > .app-sub-sidebar > .app-sub-sidebar >li ::before {
+    content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
   }
   .markdown-section h1,
   .markdown-section h2,
